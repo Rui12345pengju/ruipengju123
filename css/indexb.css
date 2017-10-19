@@ -1,0 +1,323 @@
+/*
+* @Author: lenovo
+* @Date:   2017-10-14 11:05:22
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-10-19 15:46:41
+*/
+@import url('base.css');
+.a1{
+	width: 100%;
+	height: 0.8rem;
+	background: white;
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.a3{
+	width: 6rem;
+	height: 0.8rem;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.a2{
+	width:2.7rem;
+	margin-top: 0.2rem;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.a2:last-child{
+	width: 2rem;
+}
+.a5{
+	width: 0.38rem;
+	height: 0.74rem;
+	color: black;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.a6{
+	height: 0.74rem;
+	font-size: 0.36rem;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 431772 */
+  src: url('http://at.alicdn.com/t/font_431772_6n07qaajx8y0t3xr.eot');
+  src: url('http://at.alicdn.com/t/font_431772_6n07qaajx8y0t3xr.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_431772_6n07qaajx8y0t3xr.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_431772_6n07qaajx8y0t3xr.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_431772_6n07qaajx8y0t3xr.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+	font-style: normal;
+	font-size: 0.5rem;
+}
+.a7{
+	width: 100%;
+	height: 0.8rem;
+	background: white;
+	top: 0.8rem;
+	border-top: 0.05rem solid #f5f5f5;
+	position: fixed;
+	z-index:1000;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+}
+.a8{
+	width: 1.2rem;
+	height: 0.8rem;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+}
+.a9{
+	display: block;
+	height: 0.5rem;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+}
+.a9 i{
+	margin-top: 0.1rem;
+	font-size: 0.4rem;
+	color: #b0b0b0;
+}
+.a10{
+	height: 0.7rem;
+	font-size: 0.25rem;
+	color: #b0b0b0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+}
+.a11{
+    width: 100%;
+    height: 2rem;
+    border-top: 0.05rem solid #f5f5f5;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.a75{
+	width: 100%;
+    height: 2rem;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+	border-top: 0.2rem solid #f5f5f5;
+	margin-top: 1.6rem;
+}
+.a12{
+	width: 2rem;
+	height: 1.7rem;
+	background: pink;
+}
+.a12 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.a13{
+	width: 4rem;
+	height: 1.8rem;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.a52{
+	width: 4rem;
+	height: 0.45rem;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-self: flex-start;
+
+}
+.a52:first-child{
+	font-size: 0.25rem;
+	color: black;
+
+}
+.a52:nth-child(2){
+	font-size: 0.3rem;
+	color:#b0b0b0;
+}
+
+.a59{
+	height: 0.3rem;
+	font-size:0.25rem;
+	color: #ff4351; 
+}
+.a60{
+	width: 2.1rem;
+	height: 0.3rem;
+	font-size: 0.25rem;
+}
+.a62{
+	width: 100%;
+    height: 2rem;
+    border-top: 0.05rem solid #f5f5f5;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+	margin-bottom:1.25rem;
+}
+
+/* 底部 */
+.a53{
+	width: 100%;
+	height: 1.25rem;
+	background: white;
+	border-top: 0.05rem solid #f5f5f5;
+	position: fixed;
+	bottom: 0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+
+.a54{
+	width: 20%;
+	padding-top: 5px;
+	display: block;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.a54:hover{
+	color: #ff349a;
+}
+.a70{
+	text-align: center;
+	line-height: 0.3rem;
+}
+
+.a70 span{
+	font-size: 0.28rem;
+	color: black;
+	text-align: center;
+}
+.a70 i{
+	font-size: 0.8rem;
+	color: #b0b0b0;
+}
+.a72{
+	text-align: center;
+	line-height: 0.3rem;
+	margin-left: 0.1rem;
+}
+.a72 span{
+	font-size: 0.28rem;
+	text-align: center;
+	color: red;
+}
+.a72 i{
+	color: red;
+	font-size: 0.9rem;
+}
+.a71{
+	text-align: center;
+	line-height: 0.3rem;
+	margin-left: 0.1rem;
+}
+.a71 span{
+	font-size: 0.28rem;
+	text-align: center;
+	color: black;
+}
+.a71 i{
+	font-size: 0.9rem;
+	color: #b0b0b0;
+}
+.a74{
+	text-align: center;
+	line-height: 0.3rem;
+	margin-left: 0.1rem;
+}
+.a74 span{
+	font-size: 0.28rem;
+	text-align: center;
+	color: black;
+}
+.a74 i{
+	font-size: 0.8rem;
+	color: #b0b0b0;
+}
+.a73{
+	text-align: center;
+	line-height: 0.3rem;
+	margin-left: 0.1rem;
+}
+.a73 span{
+	font-size: 0.28rem;
+	text-align: center;
+	color: black;
+}
+.a73 i{
+	font-size: 0.8rem;
+	color: #b0b0b0;
+}

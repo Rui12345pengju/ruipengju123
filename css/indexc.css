@@ -1,0 +1,362 @@
+/*
+* @Author: lenovo
+* @Date:   2017-10-14 11:05:49
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-10-19 17:18:44
+*/
+@import url('base.css');
+.a1{
+	width: 100%;
+	height: 0.8rem;
+	background: white;
+	position: fixed;
+	z-index:999;
+	top: 0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.a2{
+	width: 2rem;
+	height: 0.8rem;
+	font-size: 0.35rem;
+	color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.a2:last-child{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-end;
+}
+.a2:first-child{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-start;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 431772 */
+  src: url('http://at.alicdn.com/t/font_431772_ftcnlmvt7se89f6r.eot');
+  src: url('http://at.alicdn.com/t/font_431772_ftcnlmvt7se89f6r.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_431772_ftcnlmvt7se89f6r.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_431772_ftcnlmvt7se89f6r.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_431772_ftcnlmvt7se89f6r.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+	font-style: normal;
+	font-size: 0.5rem;
+	color: #b0b0b0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+}
+.a3{
+	width: 100%;
+	height: 0.5rem;
+	background: white;
+	top: 0.8rem;
+	position: fixed;
+	z-index:999;
+	border-top: 0.05rem solid #f5f5f5;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+}
+.a4{
+	width: 1.2rem;
+	height: 0.6rem;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+}
+.a9{
+	display: block;
+	height: 0.5rem;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+}
+.a9 i{
+	font-size: 0.3rem;
+}
+.a10{
+	font-size: 0.25rem;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+}
+.a11{
+	width: 100%;
+	height: 2.5rem;
+	border-top: 0.1rem solid #f5f5f5;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.a60{
+	width: 100%;
+	height: 2.5rem;
+	margin-top: 1.4rem;
+	border-top: 0.3rem solid #f5f5f5;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.a12{
+	width: 2rem;
+}
+.a12 img{
+	display: block;
+	width: 100%;
+	height: 100%；
+}
+.a13{
+	width: 4rem;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+}
+.a14{
+	width: 4rem;
+	font-size: 0.25rem;
+}
+.a15{
+	width: 4rem;
+	height: 0.4rem;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.a16:first-child{
+	font-size: 0.3rem;
+}
+.a16:nth-child(2){
+	font-size: 0.25rem;
+	color: #f5f5f5;
+}
+.a16:last-child{
+	font-size: 0.28rem;
+	color: #b0b0b0;
+}
+.a17:first-child{
+	font-size: 0.2rem;
+}
+.a17:last-child{
+	font-size: 0.3rem;
+	color: red;
+}
+.a18{
+	width: 4rem;
+	height: 0.4rem;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+}
+.a20{
+	width: 4rem;
+	height: 0.4rem;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.a21{
+	width: 2rem;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+}
+
+.a21 .a17:first-child{
+	font-size: 0.2rem;
+	color: #16b7a2;
+}
+.a21 .a17:nth-child(2){
+	font-size: 0.3rem;
+	color: #16b7a2;
+}
+.a19{
+	width: 1.2rem;
+	background: red;
+	border-radius: 50px;
+	font-size: 0.30rem;
+	color: white;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+}
+.a28{
+	width: 100%;
+	height: 2.5rem;
+	margin-bottom: 1.25rem;
+	border-top: 0.1rem solid #f5f5f5;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+
+}
+/* 底部 */
+.a53{
+	width: 100%;
+	height: 1.25rem;
+	background: white;
+	border-top: 0.05rem solid #f5f5f5;
+	position: fixed;
+	bottom: 0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+
+.a54{
+	width: 20%;
+	padding-top: 5px;
+	display: block;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.a54:hover{
+	color: #ff349a;
+}
+.a70{
+	text-align: center;
+	line-height: 0.3rem;
+}
+
+.a70 span{
+	font-size: 0.28rem;
+	color: black;
+	text-align: center;
+}
+.a70 i{
+	font-size: 0.8rem;
+	color: #b0b0b0;
+}
+.a74{
+	text-align: center;
+	line-height: 0.3rem;
+	margin-left: 0.1rem;
+}
+.a74 span{
+	font-size: 0.28rem;
+	text-align: center;
+	color: red;
+}
+.a74 i{
+	color: red;
+	font-size: 0.75rem;
+}
+.a71{
+	text-align: center;
+	line-height: 0.3rem;
+	margin-left: 0.1rem;
+}
+.a71 span{
+	font-size: 0.28rem;
+	text-align: center;
+	color: black;
+}
+.a71 i{
+	font-size: 0.9rem;
+	color: #b0b0b0;
+}
+.a72{
+	text-align: center;
+	line-height: 0.3rem;
+	margin-left: 0.1rem;
+}
+.a72 span{
+	font-size: 0.28rem;
+	text-align: center;
+	color: black;
+}
+.a72 i{
+	font-size: 0.8rem;
+	color: #b0b0b0;
+}
+.a73{
+	text-align: center;
+	line-height: 0.3rem;
+	margin-left: 0.1rem;
+}
+.a73 span{
+	font-size: 0.28rem;
+	text-align: center;
+	color: black;
+}
+.a73 i{
+	font-size: 0.8rem;
+	color: #b0b0b0;
+}

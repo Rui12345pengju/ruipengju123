@@ -1,0 +1,602 @@
+/*
+* @Author: lenovo
+* @Date:   2017-10-11 21:26:13
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-10-19 14:23:23
+*/
+@import url('base.css');
+.a1{
+	width: 100%;
+	height: 0.63rem;
+	background: rgba(1, 0, 0, 0.5);
+	padding-top: 0.1rem;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	position: fixed;
+	z-index: 999;
+	top: 0;
+
+}
+.a2{
+	width: 0.5rem;
+	height: 0.5rem;
+}
+.a2 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.a3{
+	height: 0.45rem;
+	width: 3.9rem;
+	background: white;
+	border-radius: 70px;
+}
+.a4{
+	height: 0.29rem;
+	font-size: 0.25rem;
+	color: white;
+
+}
+.a3 input{
+	height: 0.45rem;
+	display: block;
+	border: 0 solid #f5f5f5;
+	background: white;
+	border-radius: 70px;
+	font-size: 0.3rem;
+	color: #a28d8d;
+	position: relative;
+	outline: none;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 431772 */
+  src: url('http://at.alicdn.com/t/font_431772_yal9ox87eizzolxr.eot');
+  src: url('http://at.alicdn.com/t/font_431772_yal9ox87eizzolxr.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_431772_yal9ox87eizzolxr.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_431772_yal9ox87eizzolxr.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_431772_yal9ox87eizzolxr.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+	font-style: normal;
+	font-size: 0.65rem;
+}
+.a3 i{
+	font-size: 0.6rem;
+	color: #b0b0b0;
+	position: absolute;
+	top: 0.03rem;
+}
+.a5{
+	width: 100%;
+	height: 2.34rem;
+	background: yellow;
+	margin-top: 0.63rem;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.a6 img{
+	display: block;
+	width: 100%;
+	height: 2.34rem;
+	position: absolute;
+}
+.a7{
+	width: 2rem;
+	position: absolute;
+	margin-top: 2.05rem;
+	margin-left: 2.18rem;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.a7 li{
+	width: 0.1rem;
+	height: 0.1rem;
+	border-radius: 50%;
+	border: 0.02rem solid white;
+
+}
+.a8{
+	width: 100%;
+	height: 1.47rem;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.a9{
+	width:1rem;
+	height: 1rem;
+}
+.a10{
+	width: 0.7rem;
+	height: 0.7rem;
+	background: 0.45rem;
+	border-radius: 50%;
+	background: green;
+	margin:  0 auto;
+
+}
+.a10 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.a11{
+	font-size: 0.25rem;
+	color: black;
+}
+.a12{
+	width: 100%;
+	height: 1.1rem;
+	background: #f5f5f5;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.a13{
+	width: 2.12rem;
+	height: 0.98rem;
+	background: white;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.a14{
+	width: 0.84rem;
+	height: 0.52rem;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+}
+.a15{
+	font-size: 0.23rem;
+	color: #e55b4f;
+}
+.a14 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.a16{
+	font-size: 0.23rem;
+	color: #43bd4d;
+}
+.a17{
+	font-size: 0.23rem;
+	color: #7ed4f1;
+}
+.a18{
+	width:100%;
+	height: 0.95rem;
+	background: #f5f5f5;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+}
+.a19{
+	width: 50%;
+	height: 0.90rem;
+	background: #f5f5f5;
+	border-right: 0.02rem solid #f5f5f5;
+}
+.a19 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.a20{
+	width: 100%;
+	height:1.15rem;
+	background: #f5f5f5;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.a21{
+	width:1.63rem;
+	height:1.13rem;
+	background: white;
+	border-right: 0.02rem solid #f5f5f5; 
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.a24{
+	width: 0.86rem;
+	height: 0.84rem;
+
+}
+.a24 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.a25{
+	font-size: 0.25rem;
+	color: #666666;
+}
+.a22{
+	width: 2.80rem;
+	height: 1.13rem;
+	background: white;
+	border-right: 0.02rem solid #f5f5f5;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center; 
+}
+.a26{
+	width: 2.17rem;
+	height: 0.84rem;
+
+}
+.a26 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.a27{
+	font-size: 0.03rem;
+	color: #f5f5f5;
+}
+.a23{
+	width: 2.03rem;
+	height: 1.13rem;
+	background: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center; 
+}
+.a28{
+	width: 1.17rem;
+	height: 0.84rem;
+
+}
+.a28 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.a29{
+	width: 100%;
+	height: 1.9rem;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+}
+.a30{
+	width: 3.54rem;
+	height: 1.9rem;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+}
+.a30:last-child{
+	width: 3.2rem;
+	height: 1.9rem;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-start;
+	
+}
+.a31{
+	width: 1.8rem;
+	height: 0.69rem;
+	background: white;
+	margin-top: 0.2rem;
+}
+.a32{
+	font-size: 0.23rem;
+	color: #43bd4d;
+}
+.a33{
+	font-size: 0.21rem;
+	color: black;
+}
+.a34{
+	width: 1.15rem;
+	height: 1.29rem;
+	background: white;
+	margin-left: 0.2rem;
+	margin-top: 0.2rem;
+}
+.a34 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.a35{
+	width: 2.1rem;
+	height: 1.44rem;
+	margin-top: 0.2rem;
+}
+.a36{
+	width: 2.1rem;
+	height: 0.5rem;
+	border-bottom: 0.1rem solid white;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.a37{
+	width: 0.44rem;
+	height: 0.38rem;
+	background: white;
+}
+.a38{
+	width: 1.5rem;
+	height: 0.38rem;
+	background: white;
+}
+.a39{
+	font-size: 0.25rem;
+}
+.a37 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.a40{
+	width: 100%;
+	height: 4.22rem;
+}
+.a41{
+	width: 100%;
+	height: 4.1rem;
+	margin-top: 0.1rem;
+
+}
+.a42{
+	width: 100%;
+	height: 0.5rem;
+	border-top: 0.01rem solid #f5f5f5;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+
+}
+.a43{
+	width: 0.1rem;
+	height: 0.5rem;
+	background: #ff9804;
+	float:left;
+
+}
+.a47{
+	width: 6.1rem;
+	height: 0.5rem;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.a44{
+	font-size: 0.3rem;
+	color: #ff9804;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.a45{
+	width: 0.37rem;
+	height: 0.3rem;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.a46{
+	width: 0.1rem;
+	height: 0.1rem;
+	border-radius: 50%;
+	border: 0.01rem solid #b0b0b0;
+}
+.a48{
+	width: 100%;
+	height: 3.73rem;
+	margin-bottom: 0.9rem;
+}
+.a49{
+	width: 100%;
+	height: 1.5rem;
+	border-top: 0.05rem solid #f5f5f5;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.a49:last-child{
+	margin-bottom: 1.25rem;
+}
+.a50{
+	width: 1.2rem;
+	height: 1rem;
+	background: red;
+
+}
+.a50 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.a51{
+	width: 4rem;
+	height: 1rem;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.a52{
+	width: 4rem;
+	height: 0.30rem;
+
+}
+.a52:first-child{
+	font-size: 0.25rem;
+	color: black;
+
+}
+.a52:nth-child(2){
+	font-size: 0.23rem;
+	color:#b0b0b0;
+}
+
+.a59{
+	height: 0.3rem;
+	font-size:0.2rem;
+	color: #ff4351; 
+}
+.a60{
+	width: 2.1rem;
+	height: 0.3rem;
+	font-size: 0.2rem;
+}
+/* 底部 */
+.a53{
+	width: 100%;
+	height: 1.25rem;
+	background: white;
+	border-top: 0.05rem solid #f5f5f5;
+	position: fixed;
+	bottom: 0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+
+.a54{
+	width: 20%;
+	padding-top: 5px;
+	display: block;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.a54:hover{
+	color: #ff349a;
+}
+.a70{
+	text-align: center;
+	line-height: 0.3rem;
+}
+
+.a70 span{
+	font-size: 0.28rem;
+	color: black;
+	text-align: center;
+}
+.a70 i{
+	font-size: 0.8rem;
+	color: #b0b0b0;
+}
+.a71{
+	text-align: center;
+	line-height: 0.3rem;
+	margin-left: 0.1rem;
+}
+.a71 span{
+	font-size: 0.28rem;
+	text-align: center;
+	color: red;
+}
+.a71 i{
+	color: red;
+	font-size: 0.9rem;
+}
+.a72{
+	text-align: center;
+	line-height: 0.3rem;
+	margin-left: 0.1rem;
+}
+.a72 span{
+	font-size: 0.28rem;
+	text-align: center;
+	color: black;
+}
+.a72 i{
+	font-size: 0.9rem;
+	color: #b0b0b0;
+}
+
+
+
+
+
+
